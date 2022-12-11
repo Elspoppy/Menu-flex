@@ -1,0 +1,105 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+.wrapper>nav{
+	margin: 20px auto;
+}
+
+nav{
+	width: 700px;
+	border: 1px solid #1b44cc;
+	background-color: #3db1eb;
+	display: flex;
+}
+
+nav a{
+	text-decoration: none;
+	color: #fff;
+	padding: 10px;
+}
+
+.first-nav,
+.second-nav{
+	justify-content: space-between;
+}
+
+.second-nav{
+	flex-direction: row-reverse;
+}
+
+.third-nav{
+	justify-content: center;
+}
+
+.fourth-nav{
+	justify-content: center;
+	height: 100px;
+}
+.fifth-nav{
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+}
+
+.sixth-nav{
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.seventh-nav{
+	flex-direction: row-reverse ;
+	align-items: center;
+}
+
+.no-wrap{
+	align-self: stretch;
+	width: 80px;
+	text-align: center;
+}
+
+.eight-nav{
+	width: 750px;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+}
+
+
+.main{
+	margin: 20px auto;
+	width: 600px;
+	height: 400px;
+	border: 1px solid #1b44cc;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.main >div{
+	width: 120px;
+	height: 90px;
+	border: 1px solid #1b44cc;
+
+}
+.ninth-nav{
+	width: 400px;
+	flex-direction: column;
+}
+
+.fourth-nav a,
+.fifth-nav a,
+.sixth-nav a,
+.seventh-nav a,
+.ninth-nav a{
+	border: 1px solid #1b44cc;
+}
+
+nav a:hover{
+	color: #3db1eb;
+	background-color: #fff;
+}
+
+
